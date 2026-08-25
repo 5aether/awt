@@ -1,5 +1,5 @@
 {
-  description = "awt - Ultimate Mpvpaper Engine";
+  description = "awt - a wallpaper tool";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
@@ -46,7 +46,7 @@
             '';
 
             meta = with pkgs.lib; {
-              description = "Ultimate Mpvpaper Engine";
+              description = "a wallpaper tool";
               mainProgram = "awt";
               platforms = platforms.linux;
             };
