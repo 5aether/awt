@@ -1,7 +1,7 @@
 all: awt
 
-awt: awt.c
-	gcc -O3 awt.c -o awt
+awt: main.c
+	gcc -O3 main.c -o awt
 
 install: awt
 	install -Dm755 awt /bin/awt

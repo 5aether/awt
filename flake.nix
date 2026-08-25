@@ -25,7 +25,7 @@
 
             buildPhase = ''
               runHook preBuild
-              $CC -O2 main.c -o awt
+              $CC -O3 main.c -o awt
               runHook postBuild
             '';
 
